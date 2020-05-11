@@ -3,6 +3,7 @@
 #include <string>
 #include <iostream>
 using namespace std;
+#include <vector>
 
 /*
 https://www.cnblogs.com/fnlingnzb-learner/p/5833051.html
@@ -10,6 +11,11 @@ https://www.cnblogs.com/fnlingnzb-learner/p/5833051.html
 
 int main()
 {
+	pair<int, int> pa;
+	pa.first = 2;
+	pa.second = 5;
+	vector<pair<int, int>> vec;
+	vec.push_back(pa);
 
 	map<int, string> mapStudent;
 	//数据的插入--第一种：用insert函数插入pair数据

@@ -40,3 +40,4 @@ void outputResult(int n)
 	}
 
 }
+

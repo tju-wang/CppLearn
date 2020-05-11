@@ -21,7 +21,9 @@ int main()
 
 		for (int i = 0; i < str.size(); ++i)
 		{
-			if (!isHere(ret, str[i]))
+		/*	if (!isHere(ret, str[i]))
+				ret.push_back(str[i]);*/
+			if(ret.find(str[i])!=string::npos)
 				ret.push_back(str[i]);
 		}
 		cout << ret.size() << endl;
