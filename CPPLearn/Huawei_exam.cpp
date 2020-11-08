@@ -186,18 +186,18 @@ void delteChong(vector<string> &ret)
 	ret.erase(unique(ret.begin(), ret.end()), ret.end());
 }
 
-//查找str是不是在vector中
-//bool isHere(vector<string> vec, string str)
-//{
-//	for (auto it = vec.begin(); it != vec.end(); ++it)
-//	{
-//		if (str == (*it))
-//			return false;
-//	}
-//	return true;
-//}
+查找str是不是在vector中
+bool isHere(vector<string> vec, string str)
+{
+	for (auto it = vec.begin(); it != vec.end(); ++it)
+	{
+		if (str == (*it))
+			return false;
+	}
+	return true;
+}
 
-*/
+
 
 /*
 //1.

@@ -26,13 +26,14 @@ int main()
 {
 	int arr[10] = { 2,5,9,6,7,8,5,1,3 };
 	int len = sizeof(arr) / sizeof(int);
-	//test_BubbleSort(arr, len);
+	arrPrint(arr, len);
+	test_BubbleSort(arr, len);
 	//test_insertSort(arr, len);
 	//test_shellSort(arr, len);
 	//test_heapSort(arr, len);
-	arrPrint(arr, len);
+	
 	//MergeSortFeiDiGui(arr, len);
-	QuickSort(arr, len);
+	//QuickSort(arr, len);
 	arrPrint(arr, len);
 
 	return 0;
@@ -50,7 +51,7 @@ void bubbleSort(int *arr,int len)
 {
 	int i, j;
 	bool flag = true;
-	for (i = 0; i < len; ++i)
+	for (i = 0; i < len && flag==true; ++i)
 	{
 		flag = false;	//设置有序标志
 		for (j = len - 1; j > i; --j)

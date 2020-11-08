@@ -8,6 +8,7 @@
     <ClCompile Include="jump.cpp" />
     <ClCompile Include="leetcode_3.cpp" />
     <ClCompile Include="Map_learn.cpp" />
+    <ClCompile Include="meituan.cpp" />
     <ClCompile Include="practice.cpp" />
     <ClCompile Include="practice_10.cpp" />
     <ClCompile Include="practice_11.cpp" />
@@ -67,7 +68,7 @@
     <ClCompile Include="shudu.cpp" />
     <ClCompile Include="Tencent_1.cpp" />
     <ClCompile Include="Tencent_Exam.cpp" />
-    <ClCompile Include="..\m_sort.cpp" />
+    <ClCompile Include="huawei_zhou.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="targetver.h" />
