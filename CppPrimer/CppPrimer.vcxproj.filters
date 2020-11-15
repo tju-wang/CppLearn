@@ -35,5 +35,11 @@
     <ClCompile Include="ch_09.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ch_10.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ch_11.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
