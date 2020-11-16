@@ -1,0 +1,8 @@
+{
+    "editor.codeActionsOnSave": null,
+    "editor.fontFamily": "'monospace','Fira Code'",
+    "files.associations": {
+        "string": "cpp",
+        "iosfwd": "cpp"
+    }
+}

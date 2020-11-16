@@ -1,0 +1,26 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "build",
+            "command": "/usr/bin/g++-8",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileBasenameNoExtension}.out"
+            ],
+            "options": {
+                "cwd": "/home/barkcaptain/桌面/vscode/CppLearn/CppPrimer"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "compiler: /usr/bin/g++-8"
+        }
+    ],
+    "version": "2.0.0"
+}
+
+
